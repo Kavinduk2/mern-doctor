@@ -1,0 +1,29 @@
+{
+  "name": "mern-doctor",
+  "version": "1.0.0",
+  "description": "A CLI to diagnose and fix common MERN stack errors.",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "mern-doctor": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mern",
+    "cli",
+    "error",
+    "fix",
+    "node"
+  ],
+  "author": "Kavindu",
+  "license": "ISC",
+  "dependencies": {
+    "@inquirer/prompts": "^8.3.2",
+    "chalk": "^5.6.2",
+    "commander": "^14.0.3",
+    "dotenv": "^17.3.1",
+    "ora": "^9.3.0"
+  }
+}
