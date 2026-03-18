@@ -1,6 +1,6 @@
 {
   "name": "mern-doctor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A CLI to diagnose and fix common MERN stack errors.",
   "main": "index.js",
   "type": "module",
@@ -15,7 +15,10 @@
     "cli",
     "error",
     "fix",
-    "node"
+    "node",
+    "eaddrinuse",
+    "port",
+    "conflict"
   ],
   "author": "Kavindu",
   "license": "ISC",
